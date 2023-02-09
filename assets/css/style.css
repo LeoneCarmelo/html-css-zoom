@@ -1,0 +1,27 @@
+/* #region Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #endregion Reset */
+
+/* #region Color */
+:root{
+    --background: black;
+    --navbar: #222222;
+    --sharescreen: #4bc800;
+}
+/* #endregion Color */
+
+/* #region Header */
+
+/* #endregion Header */
+
+/* #region Main */
+
+/* #endregion Main */
+
+/* #region Footer */
+
+/* #endregion Footer */
