@@ -23,6 +23,12 @@ body{
 .d-flex{
     display: flex;
 }
+.al-cen{
+    align-items: center;
+}
+.dir-col{
+    flex-direction: column;
+}
 /* #endregion Common */
 
 /* #region Header */
@@ -88,5 +94,13 @@ font-size: 25px;
     width:100px;
     line-height: 60px;
     text-align: center;
+}
+.menu span{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#share{
+    color:var(--sharescreen)
 }
 /* #endregion Footer */
