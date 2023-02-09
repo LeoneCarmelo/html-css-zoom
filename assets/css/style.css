@@ -11,17 +11,82 @@
     --background: black;
     --navbar: #222222;
     --sharescreen: #4bc800;
+    --endmeeting: #4a4a4a;
 }
 /* #endregion Color */
 
-/* #region Header */
+/* #region Common */
+body{
+    background-color: var(--background);
+    height:100vh;
+}
+.d-flex{
+    display: flex;
+}
+/* #endregion Common */
 
+/* #region Header */
+header{
+    text-align:end;
+    height:30px;
+}
+header span{
+    display: inline-block;
+    color:white;
+    padding: 3px;
+    background-color: var(--endmeeting);
+    margin-left: 5px;
+}
+header span > i{
+    margin-right: 10px;
+}
 /* #endregion Header */
 
 /* #region Main */
+.container-usr{
+    width:90%;
+    margin: 0 auto 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user{
+    margin-bottom:3px;
+    margin: 0 2px;
+}
 
 /* #endregion Main */
 
 /* #region Footer */
+footer{
+    height: 60px;
+    background-color: var(--navbar);
+    position:fixed;
+    bottom:0;
+    left: 0;
+    width:100%;
+}
+nav{
+    height: 60px;;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.audio-video span{
+    display: inline-block;
+    padding: 0 10px;
+}
 
+nav  i{
+font-size: 25px;
+}
+
+.end-meeting{
+    color: red;
+    background-color: var(--endmeeting);
+    height: 60px;
+    width:100px;
+    line-height: 60px;
+    text-align: center;
+}
 /* #endregion Footer */
